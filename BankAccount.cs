@@ -10,11 +10,13 @@ public class BankAccount {
     }
 
     public void deposit(double amount) {
+        
+        if (amount <= 0) {
+            throw new Exception("No negative deposits allowed");
+        }
+
         balance += amount;
-    }public double getBalance() {
-        return balance;
+
     }
-
-
 
 }
