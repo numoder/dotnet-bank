@@ -1,13 +1,5 @@
-﻿
-
-BankAccount newaccount = new BankAccount();
+﻿BankAccount newaccount = 
+new BankAccount("Jimothy",250);
 // newaccount.customerName = "Jim";
-
-if(newaccount.typeOfAccount == "checking") {
-    // balance = balance + 100;
-    newaccount.balance += 100;
-}
-
-
 
 Console.WriteLine(newaccount.customerName + "'s balance is $" + newaccount.balance);
