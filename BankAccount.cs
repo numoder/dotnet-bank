@@ -13,6 +13,6 @@ public class BankAccount {
         // if (typeOfAccount == "checking") {
         // // balance = balance + 100;
         // balance += 100;
-        }
+        // }
     }
 }
